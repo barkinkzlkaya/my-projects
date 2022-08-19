@@ -23,9 +23,6 @@ while True:
                 
                 print('"Not Valid Input !!!"')
                 
-        elif ms == "exit":
-            print ('"Exiting the program... Good Bye"')
-            exit()
         else :
 
             def convert(ms):
