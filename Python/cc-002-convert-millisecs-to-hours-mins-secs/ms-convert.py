@@ -5,7 +5,7 @@ print('''
 
 while True:
     ms = input('Please enter the milliseconds (should be greater than zero) : ')
-    if ms == 'exit':
+    if (ms.lower()) == 'exit':
         print ('"Exiting the program... Good Bye"')
         exit()
     else :
