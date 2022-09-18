@@ -6,7 +6,7 @@ fi
 
 read -p "Enter the username (login): " USER_NAME
 read -p "Enter the real name (first and last name): " COMMENT
-read -p "Enter the password: " PASSWORD
+read -sp "Enter the password: " PASSWORD
 useradd -c "${COMMENT}" -m ${USER_NAME}
 if [ $? -eq 0 ]; then
     echo "User account created."
