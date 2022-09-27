@@ -42,10 +42,10 @@ Resources:
         cd /home/ec2-user
         wget https://raw.githubusercontent.com/barkinkzlkaya/my-projects/main/Aws/Project-001-Roman-Numerals-Converter/app.py
         mkdir templates
-        cd templates
+        cd /home/ec2-user/templates
         wget https://raw.githubusercontent.com/barkinkzlkaya/my-projects/main/Aws/Project-001-Roman-Numerals-Converter/templates/index.html
         wget https://raw.githubusercontent.com/barkinkzlkaya/my-projects/main/Aws/Project-001-Roman-Numerals-Converter/templates/result.html
-        cd ..
+        cd /home/ec2-user
         python3 app.py
       Tags:
         - Key: Name
