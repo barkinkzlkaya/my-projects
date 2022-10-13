@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  Kittens Carousel is a static website application deployed on AWS Simple Storage Service (S3), 
+  served through Cloudfront and Route 53 using AWS Cloudformation Service.
+Parameters:
+  DomainName:
+    Type: String
+    Description: The DNS name of an existing Amazon Route 53 hosted zone
+  FullDomainName:
+    Type: String
+    Description: The full domain name of your application
+     
+Resources:
+  
+Outputs:
